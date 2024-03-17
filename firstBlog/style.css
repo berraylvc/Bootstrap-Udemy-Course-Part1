@@ -1,0 +1,26 @@
+.navbar{
+    background: #085E7D!important;
+}
+
+.bg-dark{
+    background: #085E7D!important;
+}
+.card-img-tab{
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+}
+
+#map{
+    height: 450px;;
+}
+
+@media (min-width: 768px){
+    .card-img-tab{
+        height: 25vh;
+    }
+
+    #map{
+        height: 100%;
+    }
+}
